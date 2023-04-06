@@ -37,8 +37,8 @@ fn main() {
 
     // slice 引用集合中一段连续的元素序列
     let str = String::from("hello world");
-    let _hello = &s[0..5];
-    let _world = &s[6..11];
+    let _hello = &str[0..5];
+    let _world = &str[6..11];
 }
 
 fn take_ownership(some_string: String) {
